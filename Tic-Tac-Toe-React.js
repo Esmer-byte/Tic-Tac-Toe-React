@@ -31,7 +31,7 @@ class Button extends React.Component {
   
   render() {
   return (
-    <button className = "person" onClick = {() => {
+    <button className = "square" onClick = {() => {
         this.setState({value: OX});
         change();
         array[this.props.i][this.props.j] = OK;
